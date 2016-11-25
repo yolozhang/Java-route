@@ -23,7 +23,7 @@ public class PK1012 {
 				int y = findF(sc.nextInt() - 1);
 				System.out.println(x+","+y);
 				if (x != y) 
-					father[y] = father[x];//合并俩集合???? ,将能连通的村庄视为一个元素
+					father[y] = father[x];//合并俩集合
 			}
 			hset = new HashSet<>();
 			for (int i : father){
